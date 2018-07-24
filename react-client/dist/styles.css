@@ -1,0 +1,36 @@
+.artist-name {
+  font-family: 'Amatic SC', bold, cursive;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  text-align: center !important;
+  font-size: 20px !important;
+}
+
+.spinner {
+  margin: auto !important;
+  margin-top: 200px !important;
+  width: 5% !important;
+  padding: 10px !important;
+}
+
+.album-title {
+  display: none;
+}
+
+img:hover + .album-title {
+  display: inline !important;
+}
+
+.star {
+  float: right;
+}
+
+#login-error {
+  background-color: crimson;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
